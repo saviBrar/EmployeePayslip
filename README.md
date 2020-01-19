@@ -28,21 +28,37 @@ URL - https://localhost:5001/api/Payslip
 
 Sample data
 [{
-	"FirstName":"ABC",
-	"LastName":"XYZ",
+	"FirstName":"David",
+	"LastName":"Rudd",
 	"AnnualSalary":60050,
 	"SuperRate":9,
 	"PayStartPeriod":"2019-03-01"
+},
+{
+	"FirstName":"Ryan",
+	"LastName":"Chen",
+	"AnnualSalary":120000,
+	"SuperRate":10,
+	"PayStartPeriod":"2019-03-01"
 }]
+
 
 Result 
 [
     {
-        "fullName": "ABC XYZ",
+        "fullName": "David Rudd",
         "payPeriod": "1 March - 31 March",
         "grossIncome": 5004,
         "incomeTax": 922,
         "netIncome": 4082,
         "super": 450
+    },
+    {
+        "fullName": "Ryan Chen",
+        "payPeriod": "1 March - 31 March",
+        "grossIncome": 10000,
+        "incomeTax": 2696,
+        "netIncome": 7304,
+        "super": 1000
     }
 ]
