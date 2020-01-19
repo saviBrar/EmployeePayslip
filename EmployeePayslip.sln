@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslip", "EmployeePayslip\EmployeePayslip.csproj", "{9AA1A4D6-9291-44CB-A31D-FFEF2FF040C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslip.Tests", "EmployeePayslip.Tests\EmployeePayslip.Tests.csproj", "{88BC957D-43FC-4124-96D1-6A15F1E5351A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AA1A4D6-9291-44CB-A31D-FFEF2FF040C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA1A4D6-9291-44CB-A31D-FFEF2FF040C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA1A4D6-9291-44CB-A31D-FFEF2FF040C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA1A4D6-9291-44CB-A31D-FFEF2FF040C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BC957D-43FC-4124-96D1-6A15F1E5351A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BC957D-43FC-4124-96D1-6A15F1E5351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BC957D-43FC-4124-96D1-6A15F1E5351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BC957D-43FC-4124-96D1-6A15F1E5351A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
